@@ -1,0 +1,39 @@
+body{
+	background:url(../images/pages_bg.png) repeat-x;
+}
+
+#wrapper #content{
+	height: 761px;
+}
+
+#wrapper #content span{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #f9fbfd;
+	display:block;
+	height:38px;
+	padding-top:12px;
+}
+
+#wrapper #content #portfolio_gallery{
+	display:block;
+	padding-top:35px;
+	height:380px;
+}
+
+#wrapper #content #portfolio_gallery li{
+	display:inline-block;
+	float:left;
+	width:300px;
+	padding-right:20px;
+	padding-bottom:40px;
+	font-size:16px;
+	font-family:"Century Gothic", sans-serif;
+	color: #f9fbfd;
+}
+
+#wrapper #content #gallery_nav{
+	clear:left;
+	text-align:center;
+}
