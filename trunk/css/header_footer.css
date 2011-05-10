@@ -1,0 +1,135 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* HEADER */
+
+h1{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	font-weight:bold;
+	color:#f9fbfd;
+	padding: 25px 0 25px 0;
+}
+
+#wrapper{
+	width: 980px;
+	height: 1020px;
+	padding-left:40px; 
+	margin: 0 auto;
+}
+#wrapper #header{
+	height: 159px;
+	padding-right:100px;
+	background:url(../images/home_header_bg.jpg) no-repeat;
+}
+
+#wrapper #header #logo{
+	width: 100px;
+    float:left;
+    padding-right:30px;
+	padding-top:3px;
+}
+
+#wrapper #header ul{
+	padding-top:33px;
+}
+
+#wrapper #header ul li{
+	display:inline;
+	padding-right:24px;	
+}
+
+#wrapper #header ul li a, #wrapper #header ul li a:visited{
+	font-family:"Century Gothic", sans-serif;
+	font-size:16px;
+	color: #f9fbfd;
+	text-decoration: none;
+}
+
+#wrapper #header  ul li a:hover, #wrapper #header  ul li a.selected{
+	color: #65b3e3;
+}
+
+#wrapper #header #slogan{
+	float:right;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	font-weight:bold;
+	color:#f9fbfd;
+	margin-right:-35px;
+	line-height:1.3em;
+}
+
+/*end HEADER */
+
+
+/* FOOTER */
+#wrapper #footer ul li{
+	padding: 12px 17px 0px 0px;
+	float:left;
+}
+
+#wrapper #footer ul li a, a:visited{
+	text-decoration:none;
+	font-family: "Century Gothic", sans-serif;
+	font-size:12px;
+	color: #fbfbfb;
+}
+
+
+#wrapper #footer #copyright{
+	font-family: "Century Gothic", sans-serif;
+	font-size:12px;
+	color:#fcfcfe;
+	text-align:right;
+	padding: 10px 44px 0 0;
+	line-height: 1.3em;
+	margin-left:747px;
+
+}
