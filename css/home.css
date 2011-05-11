@@ -7,6 +7,7 @@ body{
 /* PROFILE */
 #wrapper #profile{
 	height:341px;
+	padding-left:45px;
 }
 
 #wrapper #profile #desc{
@@ -23,9 +24,11 @@ body{
 }
 
 #wrapper #profile #slider{
-	padding-top:40px;
-	padding-left:50px;
-	float:left;
+	padding-left:150px;
+	float:right;
+	background:transparent;
+	overflow:scroll;
+	width:400px; height:341px;
 }
 
 /* end PROFILE */
@@ -34,6 +37,7 @@ body{
 /* SERVICE */
 #wrapper #service{
 	height:422px;
+	padding-left:45px;
 }
 
 #wrapper #service .service_cols{
