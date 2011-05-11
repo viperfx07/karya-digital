@@ -58,13 +58,13 @@ h1{
 }
 
 #wrapper{
-	width: 980px;
+	width: 1020px;
 	height: 1020px;
-	padding-left:40px; 
 	margin: 0 auto;
 }
 #wrapper #header{
 	height: 159px;
+margin-left:40px;
 	padding-right:100px;
 	background:url(../images/home_header_bg.jpg) no-repeat;
 }
@@ -110,6 +110,9 @@ h1{
 
 
 /* FOOTER */
+#wrapper #footer{
+	margin-left:40px;
+}
 #wrapper #footer ul li{
 	padding: 12px 17px 0px 0px;
 	float:left;

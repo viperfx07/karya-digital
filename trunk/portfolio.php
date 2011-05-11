@@ -35,15 +35,16 @@
     
     <div id="content">
     	<span>PORTFOLIO</span>
-
-        <ul id="portfolio_gallery">
-            <li><img src="images/portfolio/portofolio_pic1.jpg" alt="portfolio1" /><small>company name</small></li>
-            <li><img src="images/portfolio/portofolio_pic2.jpg" alt="portfolio2" /><small>company name</small></li>
-            <li><img src="images/portfolio/portofolio_pic3.jpg" alt="portfolio3" /><small>company name</small></li>
-            <li><img src="images/portfolio/portofolio_pic4.jpg" alt="portfolio4" /><small>company name</small></li>
-            <li><img src="images/portfolio/portofolio_pic5.jpg" alt="portfolio5" /><small>company name</small></li>
-            <li><img src="images/portfolio/portofolio_pic6.jpg" alt="portfolio6" /><small>company name</small></li>
-        </ul><!--end portfolio_gallery-->
+		<div id="portfolio_gallery">
+            <ul>
+                <li><img src="images/portfolio/portofolio_pic1.jpg" alt="portfolio1" /><small>company name</small></li>
+                <li><img src="images/portfolio/portofolio_pic2.jpg" alt="portfolio2" /><small>company name</small></li>
+                <li><img src="images/portfolio/portofolio_pic3.jpg" alt="portfolio3" /><small>company name</small></li>
+                <li><img src="images/portfolio/portofolio_pic4.jpg" alt="portfolio4" /><small>company name</small></li>
+                <li><img src="images/portfolio/portofolio_pic5.jpg" alt="portfolio5" /><small>company name</small></li>
+                <li><img src="images/portfolio/portofolio_pic6.jpg" alt="portfolio6" /><small>company name</small></li>
+            </ul>
+        </div><!--end portfolio_gallery-->
         <div id="gallery_nav">
             <a href="#"><img src="images/btn_back.png" alt="back" /></a>
             <span class="divider" style="width:13px; display:inline-block;"></span>

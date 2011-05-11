@@ -5,6 +5,22 @@
 <title>Karya Digital</title>
 <link rel="stylesheet" type="text/css" href="/css/header_footer.css"/>
 <link rel="stylesheet" href="css/home.css" type="text/css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/cloud-carousel.1.0.5.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+						   
+	// This initialises carousels on the container elements specified, in this case, carousel1.
+	$("#slider").CloudCarousel(		
+		{			
+			xPos: 128,
+			yPos: 32,
+			autoRotate: "left"
+		}
+	);
+});
+</script>
+
 <!-- [if IE]>
 <style type="text/css"> 
 #wrapper { word-wrap: break-word;}
@@ -42,9 +58,13 @@
 		</div><!--END desc-->
         
         <div id="slider">
-        	<img src="images/slider_temp.png" alt="slider" />
+        	<!--<img src="images/slider_temp.png" alt="slider" />-->
+            <img class= "cloudcarousel" src="images/gallery_1.jpg" alt="pic1" />
+            <img class= "cloudcarousel" src="images/gallery_2.jpg" alt="pic1" />
+            <img class= "cloudcarousel" src="images/gallery_3.jpg" alt="pic1" />
         </div><!--END slider-->
-    
+        
+            
     </div><!--END profile-->
     
     <div id="service">
