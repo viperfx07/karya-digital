@@ -14,8 +14,12 @@ $(document).ready(function(){
 	$("#slider").CloudCarousel(		
 		{			
 			xPos: 128,
-			yPos: 32,
-			autoRotate: "left"
+			yPos: 50,
+			yRadius: -20,
+			xRadius:300,
+			autoRotate: "left",
+			speed:0.1,
+			autoRotateDelay:2000
 		}
 	);
 });
