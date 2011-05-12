@@ -1,0 +1,67 @@
+body{
+	background:url(../images/home_bg.jpg) repeat-x;
+}
+
+/* CONTENT */
+
+/* PROFILE */
+#wrapper #profile{
+	height:341px;
+	padding-left:45px;
+}
+
+#wrapper #profile #desc{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #f9fbfd;
+	width:332px;
+	float:left;
+	line-height:1.3em
+}
+
+#wrapper #profile #desc span{
+	font-weight: bold;
+}
+
+#wrapper #profile #slider{
+	padding-left:150px;
+	float:right;
+	background:transparent;
+	overflow:scroll;
+	width:400px; height:341px;
+}
+
+/* end PROFILE */
+
+
+/* SERVICE */
+#wrapper #service{
+	height:422px;
+	padding-left:45px;
+}
+
+#wrapper #service .service_cols{
+	float:left;	
+	padding-right:50px;
+	width: 280px;
+}
+
+#wrapper #service #col3{
+	padding-right:0px;
+}
+
+#wrapper #service p.service_desc{
+	padding-top:20px;
+	font-family:"Century Gothic", sans-serif;
+	font-size:14px;
+	color:#f8fafb;
+	padding-bottom:20px;
+	width:255px;
+}
+
+div#clear{
+	clear:both;
+}
+
+/* end SERVICE */
+

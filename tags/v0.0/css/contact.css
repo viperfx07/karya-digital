@@ -1,0 +1,93 @@
+body{
+	background:url(../images/pages_bg.png) repeat-x;
+}
+
+
+h3{
+	font-family: "Century Gothic", sans-serif;
+	font-size:18px;
+	font-weight: bold;
+	color: #f5ffff;
+	padding-bottom:10px;
+	padding-top:15px;
+}
+
+strong{
+	font-weight:bold;
+}
+
+#wrapper #content{
+	height: 761px;
+}
+
+#wrapper #content span{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #f9fbfd;
+	display:block;
+	height:38px;
+	padding-top:12px;
+	margin-left:45px;
+}
+
+#wrapper #content #phone{
+	background: url(../images/phone_bg.png) no-repeat;
+	height: 87px;
+	width:697px;
+	margin: 62px auto 0 auto;
+	padding-left:23px;
+}
+
+#wrapper #content #phone p{
+	font-family: "Century Gothic", sans-serif;
+	color:#f5ffff;
+	font-size:16px;
+}
+
+#wrapper #content #email{
+	background: url(../images/email_bg.png) no-repeat;
+	width:697px;
+	height:529px;
+	margin: 8px auto 0 auto;
+	padding-left:23px;
+}
+
+#wrapper #content #email #email_form label.error {
+	margin-left: 10px;
+	width: auto;
+	display: inline;
+	color:red;
+}
+
+#wrapper #content #email p{
+	font-family: "Century Gothic", sans-serif;
+	color:#f5ffff;
+	font-size:14px;
+	margin-right:234px;
+}
+
+#wrapper #content #email table{
+	border:1px solid #fefefe;
+	width:685px;
+	margin-top:25px;
+}
+
+#wrapper #content #email td{
+	padding:14px;
+	border:1px solid #fefefe; 
+}
+
+#wrapper #content #email table td.field_title{
+	background-color: #1e6785;
+	font-family: "Century Gothic", sans-serif;
+	color:#f5ffff;
+	font-size:14px;
+	width:218px;
+	vertical-align: top;
+}
+
+#btn_send{
+	display:block;
+	margin:10px auto 0 auto;
+}
