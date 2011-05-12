@@ -5,7 +5,7 @@
 <title>Karya Digital</title>
 <link rel="stylesheet" type="text/css" href="/css/header_footer.css"/>
 <link rel="stylesheet" href="css/home.css" type="text/css" />
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
 <script type="text/javascript" src="js/cloud-carousel.1.0.5.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
